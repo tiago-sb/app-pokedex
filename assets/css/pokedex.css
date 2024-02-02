@@ -16,6 +16,7 @@
 
 .fire {
     background-color: #ee7f30;
+    transition: .1s;
 }
 
 .water {
@@ -32,11 +33,11 @@
 
 .ground {
     background-color: #dfbf69;
-}
+} 
 
 .flying {
     background-color: #a98ff0;
-}
+} 
 
 .poison {
     background-color: #a040a0;
@@ -44,7 +45,7 @@
 
 .fighting {
     background-color: #bf3029;
-}
+ }
 
 .psychic {
     background-color: #f65687;
@@ -84,6 +85,21 @@
     margin: .5rem;
     padding: 1rem;
     border-radius: 1rem;
+    cursor: pointer;
+    transition: .2s ease-in-out;
+}
+
+#loadMoreButton {
+    transition: .2s ease-in-out;
+}
+
+#loadMoreButton:hover {
+    transform: scale(1.2);
+}
+
+.pokemon:hover {
+    box-shadow: 0rem 0rem .6rem;
+    transform: scale(1.05);
 }
 
 .pokemon .number {
